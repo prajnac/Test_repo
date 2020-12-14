@@ -1,0 +1,56 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-14T13:23:43.065Z",
+        "line": 15,
+        "name": "As a user I want to verify that the city Frankfurt is",
+        "description": "  in Germany and return their corresponded latitude and longitude",
+        "id": "api-tests;as-a-user-i-want-to-verify-that-the-city-frankfurt-is;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "The link is accessible",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "confirm the city Frankfurt is in Germany",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@locationcheck"
+          }
+        ]
+      }
+    ],
+    "name": "API tests",
+    "description": "",
+    "id": "api-tests",
+    "keyword": "Feature",
+    "uri": "classpath:test/locationcheck.feature",
+    "tags": [
+      {
+        "name": "@locationcheck",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
